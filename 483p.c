@@ -41,7 +41,7 @@ void enqueue(QueueType *q, element item)
     q -> data[q->rear] = item;
 }
 
-element dequeue(QueueType *Q)
+element dequeue(QueueType *q)
 {
     if(is_empty(q))
     {
