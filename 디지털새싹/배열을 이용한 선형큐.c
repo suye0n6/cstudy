@@ -47,6 +47,12 @@ element deQueue(Queue* q){
         return temp;
     }
 }
+element daQueue(Queue* q){
+    int temp;
+    if(isFull(q)){
+        error("Queue is Empty\n");
+    }
+}
 
 void queuePrint(Queue* q){
     int i;
